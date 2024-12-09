@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#FFFFFF"
+    android:divider="?android:attr/dividerHorizontal"
+    android:showDividers="middle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ra"
+            android:layout_weight="1"
+            android:text="R.A.: 123456"
+            android:textSize="16sp"
+            android:gravity="start" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/media"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MÉDIA 6,0"
+            android:textSize="16sp"
+            android:gravity="end" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/nome"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="JUCA DA SILVA"
+            android:textSize="16sp"
+            android:gravity="start" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/resultado"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="APROVADO"
+            android:textSize="16sp"
+            android:gravity="end" />
+    </LinearLayout>
+
+</LinearLayout>
